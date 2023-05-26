@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+In the refactored code, I aimed to improve readability by simplifying the nested if statements and consolidating the common logic. I removed the unnecessary variable declaration of `let candidate` and moved the assignment directly inside the condition. The code now follows a more linear flow, making it easier to understand the different paths and conditions. Additionally, I reduced code duplication by reusing the hashing logic where necessary. The unit tests cover the existing functionality of the function and ensure that the refactored code produces the same results.
